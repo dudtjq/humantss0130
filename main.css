@@ -1,3 +1,28 @@
+
+
 #wrap{
-    margin:auto;
+    margin-left: 350px;
+}
+
+.Business2 img{
+    height: 80vh;
+}
+
+section div{
+    display: flex;
+}
+
+.text1{
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 40px;
+}
+
+.text2{
+    font-size: 18px;
+    
+}
+
+.compound-interest{
+    margin-top: 50px;
 }
