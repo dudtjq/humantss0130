@@ -1,4 +1,53 @@
+/* header style*/
 
+header {
+    background: #fff;
+    width: 100%;
+    height: 10%;
+    position: fixed;
+    opacity: 10;
+    padding: 5px 0 10px 60px;
+    z-index: 999;
+}
+
+.top-menu {
+    background: white;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+}
+
+.top-menu img {
+    width: 8%;
+    height: 20px;
+    margin-left: 50px;
+}
+
+header .inner-header li {
+    background: #fff;
+    display: inline;
+    float: right;
+    padding: 20px;
+    font-size: 12px;
+}
+
+
+header .inner-header li:hover {
+    background: rgb(239, 234, 234);
+    opacity: 90%;
+    border-radius: 10px;
+}
+
+header .inner-header li:first-child {
+    font-weight: bold;
+}
+
+
+
+
+
+/*영훈이꺼*/
 
 #wrap{
     
@@ -7,6 +56,7 @@
 section .Business2{
     margin: 0 auto;
 }
+
 
 .Business2 img{
     height: 80vh;
