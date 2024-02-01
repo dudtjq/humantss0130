@@ -89,13 +89,13 @@ section div{
     color: midnightblue;
     margin-top: 30px;
     margin-bottom: 30px;
-    margin-left: 200px;
+    margin-left: 420px;
 }
 
 .compound{
-    margin-left: 200px;
-    margin-top: 40px;
-    width: 75%;
+    margin-left: 400px;
+    margin-top: 20px;
+    width: 60%;
     height: 350px;
     /* background-color: blue; */
     display: flex;
@@ -105,13 +105,12 @@ section div{
 }
 
 .compound2{
-    margin-top: 20px;
-    width: 57%;
+    width: 45%;
     height: 330px;
     /* background-color: blue;  */
     display: flex;
     justify-content: space-between;
-    
+    margin-left: 400px;
 }
 
 .compound-box1{
