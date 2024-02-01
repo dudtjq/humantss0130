@@ -78,8 +78,9 @@ header .inner-header li:first-child {
     font-weight: bold;
 }
 
+
 .main .btn {
-    background: rgb(56, 56, 255);
+    background: dodgerblue;
     width: 10%;
     padding: 20px;
     margin-left: 300px;
@@ -90,7 +91,8 @@ header .inner-header li:first-child {
     font-size: 17px;
 }
 .main .btn:hover {
-    background: rgb(63, 63, 109);
+    background: royalblue;
+    cursor: pointer;
 }
 
 .sec-2 {
@@ -105,6 +107,29 @@ header .inner-header li:first-child {
     flex-direction: column;    
     text-align: right;
     justify-content: space-around;
+}
+
+.sec-2 .s2-box ul{
+    margin-bottom: 70px;
+}
+.sec-2 .s2-box ul li{
+    font-size: 14px;
+    list-style-type: none;
+
+}
+.sec-2 .s2-box ul li:nth-child(3) {
+    font-weight: bold;
+}
+.sec-2 .s2-box ul{
+    margin-bottom: 90px;
+}
+.sec-2 .s2-box2 ul li{
+    font-size: 14px;
+    list-style-type: none;
+    margin-left: 100px;
+}
+.sec-2 .s2-box2 ul li:nth-child(3) {
+    font-weight: bold;
 }
 
 .sec-2 .s2-box h2 {
@@ -178,10 +203,59 @@ header .inner-header li:first-child {
     color: rgb(27, 25, 119);
 
 }
+/*section business*/
+section .business {
+    width: 100%;
+ /*   background: orange; */
+    display: flex;
+    padding-left: 220px;
+
+}
+section .tit {
+    font-size: 34px;
+  /*  background: red; */
+    width: 100%;
+    margin-top: 100px;
+    padding-left: 300px;
+    color: rgb(27, 25, 119);
+
+}
+
+section .business ul {
+    list-style-type: none;
+    font-size: 12px;
+
+}
+section .business ul li {
+    padding-top: 10px;
+}
+
+section .business ul li img {
+    width: 350px;
+    border-radius: 10px;
+}
+
+.arrow {
+  /*  background: orange; */
+    margin-left: 830px;
+}
+.ar1 .fa-solid {
+    border: 1px solid black;
+    border-radius: 50%;
+    font-size: 11px;
+    padding: 10px;
+}
+.ar2 .fa-solid{
+    border: 1px solid black;
+    border-radius: 50%;
+    font-size: 11px;
+    padding: 10px;
+
+}
 
 
 
-/*영훈이꺼*/
+/*영섭이꺼*/
 
 #wrap{
     
