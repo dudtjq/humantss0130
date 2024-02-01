@@ -184,12 +184,17 @@ header .inner-header li:first-child {
 /*영훈이꺼*/
 
 #wrap{
-    margin-left: 350px;
+    
+}
+
+section .Business2{
+    margin: 0 auto;
 }
 
 
 .Business2 img{
     height: 80vh;
+    margin-left: 400px;
 }
 
 section div{
@@ -199,14 +204,238 @@ section div{
 .text1{
     font-size: 24px;
     font-weight: bold;
-    margin-right: 40px;
+    margin-left: 350px;
 }
 
 .text2{
     font-size: 18px;
+    margin-left: 300px;
     
 }
 
 .compound-interest{
     margin-top: 50px;
+}
+
+.text3{
+    font-size: 30px;
+    font-weight: bold;
+    color: midnightblue;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 200px;
+}
+
+.compound{
+    margin-left: 200px;
+    margin-top: 40px;
+    width: 75%;
+    height: 350px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    
+}
+
+.compound2{
+    margin-top: 20px;
+    width: 57%;
+    height: 330px;
+    /* background-color: blue;  */
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.compound-box1{
+    width: 280px;
+    height: 330px;
+    background-color: lightgrey;
+    margin-left: 20px;
+}
+
+.compound-box2{
+    width: 280px;
+    height: 330px;
+    background-color: lightgrey;
+    margin-left: 15px;
+   
+}
+
+.compound-box3{
+    width: 280px;
+    height: 330px;
+    background-color: lightgrey;
+    margin-left: 15px;
+    
+}
+
+.compound-box4{
+    width: 280px;
+    height: 330px;
+    background-color: lightgrey;
+    margin-left: 15px;
+    margin-right: 50px;
+}
+
+.compound-box5{
+    width: 280px;
+    height: 300px;
+    background-color: lightgrey;
+    margin-left: 20px;
+}
+
+.compound-box6{
+    width: 280px;
+    height: 300px;
+    background-color: lightgrey;
+    margin-left: 15px;
+   
+}
+
+.compound-box7{
+    width: 280px;
+    height: 300px;
+    background-color: lightgrey;
+    margin-left: 15px;
+    
+}
+
+.compound-box8{
+    width: 280px;
+    height: 300px;
+    background-color: lightgrey;
+    margin-left: 15px;
+    margin-right: 50px;
+}
+
+.compound-box9{
+    width: 280px;
+    height: 280px;
+    background-color: lightgrey;
+    margin-left: 15px;
+   
+}
+
+.compound-box10{
+    width: 280px;
+    height: 280px;
+    background-color: lightgrey;
+    margin-left: 19px;
+    
+}
+
+.compound-box11{
+    width: 280px;
+    height: 280px;
+    background-color: lightgrey;
+    margin-left: 19px;
+    margin-right: 50px;
+}
+
+.double-box{
+    width: 260px;
+    height: 310px;
+    background-color:whitesmoke;
+    margin:10px 10px;
+    box-shadow: inset; 
+    display: block;
+}
+
+.double-box2{
+    width: 260px;
+    height: 280px;
+    background-color:whitesmoke;
+    margin: 10px;
+    box-shadow: inset; 
+    display: block;
+}
+
+.double-box3{
+    width: 260px;
+    height: 260px;
+    background-color:whitesmoke;
+    margin: 10px;
+    box-shadow: inset; 
+    display: block;
+}
+
+i{
+    font-size: 60px;
+    margin-top: 28px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+.material-symbols-outlined{
+    font-size: 60px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+.content{
+    display: block;
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.sub-text1{
+    font-size: 15px;
+    /* background-color: aqua; */
+    color: gray;
+    font-weight: bold;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.title-text{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+.sub-text2{
+    font-size: 13px;
+    line-height: 1.5;
+    color: lightslategray;
+}
+
+.dot{
+    color: blue;
+    display: inline-block;
+}
+
+.join{
+    width: 210px;
+    height: 70px;
+    background-color: dodgerblue;
+    border-radius: 50px;
+    text-align: center;
+    margin-left: 1000px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.join:hover{
+    background-color:royalblue;
+}
+
+.support{
+    margin-top: 5px;
+    color: white;
+    font-size: 19px;
+    padding: 21px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer{
+    margin-right:2000px;
+    width: 200%;
+    border-top: 1px solid gray;
+    
 }
