@@ -336,10 +336,34 @@ header .top-menu img {
     margin-top: 1000px;
 }
 .value h1 {
-    padding: 20px
+    padding-left: 100px;
 }
 .value h2 {
+    padding-left: 100px;
+}
+.value .wrap {
+    margin-left: 80px;
+    padding-right: 20px;
+}
+.value .value-box {
+    margin-left: 40px;
+}
+.value .value-box ul{
+    width: 400px;
+    padding: 0 0 0 10px
+}
+/*business*/
+.business {
+    animation: none;
+}
+section .tit {
+    padding-left: 100px;
+}
+section .business {
     padding: 20px;
+}
+section .business ul li {
+    padding-left: 5px;
 }
 
 }
