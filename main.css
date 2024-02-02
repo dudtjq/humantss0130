@@ -301,7 +301,10 @@ section .business ul li img {
 /*============================================================================*/
 /*노트북 해상도 1600px 미만*/
 @media (max-width: 1599px) {
+body {
+    position: relative;
 
+}
 
 header {
     right: 200px;
@@ -363,8 +366,24 @@ section .business {
     padding: 20px;
 }
 section .business ul li {
-    padding-left: 5px;
+    padding-left: 1px;
+    animation: none;
 }
+
+}
+/*모바일 */
+@media (max-width: 414px) {
+    body {
+        min-width: 320px;
+    }
+    .top-menu {
+        position: fixed;
+    }
+
+
+
+
+
 
 }
 
