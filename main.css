@@ -622,21 +622,29 @@ footer .ft-text .a2{
 @media(max-width :1599px){
     .Business2 img {
         height: 50vh;
+        margin-right: 5000px;
     }
 
     .text-box{
         position: relative;
     }
-   
-    .text2{
-        position: absolute;
+
+    .text1{
+        position: relative;
         margin-top: 130px;
         margin-right: 150px;
-        margin-left: 400px;
+        margin-left: 200px;
+        margin-bottom: 50px;
+    }
+   
+    .text2{
+        margin-top: 100px;
+        margin-left: 0px;
     }
 
     .text3{
         margin-top: 150px;
+        margin-left: 210px
     }
 
     .compound {
@@ -645,7 +653,7 @@ footer .ft-text .a2{
         justify-content: center;
         width: 30vh;
         height: 30vh;
-        margin-left: 850px;
+        margin-left: 650px;
     }
 
     .compound2{
@@ -654,9 +662,12 @@ footer .ft-text .a2{
         justify-content: center;
         width: 30vh;
         height: 30vh;
-        margin-left: 710px;
+        margin-left: 505px;
     }
 
+    .join{
+        margin-left: 1150px;
+    }
   
 
 
