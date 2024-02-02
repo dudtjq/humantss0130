@@ -320,7 +320,6 @@ header .top-menu img {
     padding-right: 50px;
 }
 
-/*시간 나면 ul li 햄버거 모양으로 가려주기*/
 
 .main {
     width: 100%;
@@ -371,23 +370,18 @@ section .business ul li {
 }
 
 }
-/*모바일 */
-@media (max-width: 414px) {
-    body {
-        min-width: 320px;
-    }
-    .top-menu {
-        position: fixed;
-    }
+/*태블릿을 1024px 이하 해상도(아이패드 프로)*/
 
-
-
-
-
-
+@media(max-width :1024px){ 
+.main .btn{
+ padding: 10px;
 }
 
+.main .s2-box2 .img2 {
+    
+}
 
+}
 /*영섭이꺼*/
 
 #wrap{
