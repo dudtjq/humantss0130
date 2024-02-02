@@ -302,21 +302,44 @@ section .business ul li img {
 /*노트북 해상도 1600px 미만*/
 @media (max-width: 1599px) {
 
+
 header {
-    right: 190px;
-}    
+    right: 200px;
+    width: 100%;
+    text-overflow: ellipsis;
+    position: relative;
+
+}
 
 header .top-menu img {
     width: 17%;
+    right: 20px;
+    padding-right: 50px;
 }
 
 /*시간 나면 ul li 햄버거 모양으로 가려주기*/
 
 .main {
-    background: violet;
+    width: 100%;
+    text-overflow: ellipsis;
+    position: absolute;
+    right: 200px;
+    top: 80px;
+    animation: none;
 }
-.main h1 {
-    background: orange; 
+.main .btn {
+    text-overflow: ellipsis;
+}
+/*value*/
+.value {
+    animation: none;
+    margin-top: 1000px;
+}
+.value h1 {
+    padding: 20px
+}
+.value h2 {
+    padding: 20px;
 }
 
 }
