@@ -736,11 +736,149 @@ footer .ft-text .a2{
         margin-left: 1150px;
     }
   
-
+    footer{
+        margin-left: -150px;
+    }
 
 
 }
 
+/*태블릿을 1024px 이하 해상도(아이패드 프로)*/
+
+@media(max-width :1024px){ 
+    .Business2 img{
+        height: 60vh;
+        margin-left:-0px;
+    }
+
+    .text-box{
+        position: relative;
+    }
+
+    .text1{
+        position: relative;
+        margin-top: 0px;
+        margin-right: 150px;
+        margin-left: 70px;
+        margin-bottom: 50px;
+        
+    }
+   
+    .text2{
+        position: absolute;
+        margin-top: 150px;
+        margin-left: 70px;
+    }
+
+    .text3{
+        margin-top: 150px;
+        margin-left: 70px
+    }
+
+    .compound{
+       display: flex;
+        display:inline;
+        justify-content: center;
+        
+    }
+
+    .compound-box1{
+        margin-bottom: 10px;
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+
+    .compound-box2{
+        margin-left: 340px;
+        margin-top: -340px;
+        margin-bottom: 10px;
+    }
+
+      .compound-box3{
+        margin-left: 640px;
+        margin-top: -340px;
+        margin-bottom: 10px;
+    }
+
+    .compound-box4{
+        height: 300px;
+        margin-left: 50px;
+    }
+
+    .double-box{
+        height: 310px;
+    }
+
+    .compound-box5{
+        margin-left: 340px;
+        margin-top: -320px;
+        margin-bottom: 10px;
+    }
+
+    .compound-box6{
+        margin-left: 640px;
+        margin-top: -310px;
+        margin-bottom: 10px;
+    }
+
+    .compound-box7{
+        margin-bottom: 10px;
+        margin-top: 0px;
+        margin-left: 50px;
+    }
+
+    .compound-box8{
+        margin-left: 340px;
+        margin-top: -310px;
+        margin-bottom: 10px;
+    }
+
+    .compound-box9{
+        margin-left: 640px;
+        margin-top: -310px;
+        margin-bottom: 10px;
+        height: 300px;
+    }
+
+    .double-box3{
+        height: 280px;
+        
+    }
+    
+    .compound-box10{
+        margin-bottom: 10px;
+        margin-top: 0px;
+        margin-left:50px;
+    }
+
+    .compound2{
+        display:contents;
+     }
+
+     .compound-box11{
+        margin-bottom: 10px;
+        margin-top: -290px;
+        margin-left:340px;
+    }
+
+    .double-box3{
+        height: 260px;
+    }
+
+     .join{
+        margin-left: 680px;
+     }
+
+    footer{
+        width: 1000%;
+    }
+   
+    
+  
+    
+
+
+}
 
 
 
