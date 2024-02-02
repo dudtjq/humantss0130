@@ -61,10 +61,26 @@ header .inner-header li:first-child {
 
 /*section main style*/
 
+.main {
+    animation: uprise 3s;
+}
+
+
+@keyframes uprise {
+    from {
+        opacity: 0;
+        top: 60%;
+    }
+    to {
+        opacity: 1;
+        top: 50%;
+    }
+    
+}
 .main h1 {
-  /*  background: orange; */
+   /* background: orange; */
     width: 100%;
-    margin-left: 300px;
+    padding-left: 300px;
     padding-top: 100px;
     font-weight: bold;
     font-size: 34px;
@@ -100,6 +116,7 @@ header .inner-header li:first-child {
     font-size: 9px;
     color: #333232f6;
 }
+
 .sec-2 .s2-box {
     width: 36%;
  /*   background: orange; */
@@ -153,10 +170,25 @@ header .inner-header li:first-child {
 }
 
 /*section value style*/
+
 .value {
     background: rgb(243, 243, 243);
     margin-top: 100px;
+    animation: uprise 2s;
+    animation-delay: 1.5s;
 }
+
+@keyframes uprise {
+    from {
+        opacity: 0;
+        top: 60%;
+    }
+    to {
+        opacity: 1;
+        top: 50%;
+    }
+}
+
 
 .value h1 {
     padding-top: 100px;
@@ -209,8 +241,21 @@ section .business {
  /*   background: orange; */
     display: flex;
     padding-left: 220px;
-
+    animation: uprise 2s;
+    animation-timing-function: linear;
+    animation-delay: 3.5s;
 }
+@keyframes uprise {
+    from {
+        opacity: 0;
+        top: 60%;
+    }
+    to {
+        opacity: 1;
+        top: 50%;
+    }
+}
+
 section .tit {
     font-size: 34px;
   /*  background: red; */
@@ -252,7 +297,29 @@ section .business ul li img {
     padding: 10px;
 
 }
+/* 반응형 웹 디자인 */
+/*============================================================================*/
+/*노트북 해상도 1600px 미만*/
+@media (max-width: 1599px) {
 
+header {
+    right: 190px;
+}    
+
+header .top-menu img {
+    width: 17%;
+}
+
+/*시간 나면 ul li 햄버거 모양으로 가려주기*/
+
+.main {
+    background: violet;
+}
+.main h1 {
+    background: orange; 
+}
+
+}
 
 
 /*영섭이꺼*/
