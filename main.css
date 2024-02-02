@@ -298,7 +298,12 @@ section .business ul li img {
     border-radius: 50%;
     font-size: 11px;
     padding: 10px;
-
+}
+.ar1 .fa-solid:hover {
+    cursor: pointer;
+}
+.ar2 .fa-solid:hover {
+    cursor: pointer;
 }
 /* 반응형 웹 디자인 */
 /*============================================================================*/
@@ -306,7 +311,6 @@ section .business ul li img {
 @media (max-width: 1599px) {
 body {
     position: relative;
-
 }
 
 header {
