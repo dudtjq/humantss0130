@@ -53,6 +53,7 @@ header .inner-header li:hover {
     background: rgb(239, 234, 234);
     opacity: 90%;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 header .inner-header li:first-child {
@@ -105,6 +106,8 @@ header .inner-header li:first-child {
     color: #fff;
     font-weight: bolder;
     font-size: 17px;
+    text-overflow: ellipsis;
+
 }
 .main .btn:hover {
     background: royalblue;
@@ -320,6 +323,9 @@ header .top-menu img {
     padding-right: 50px;
 }
 
+.sec-2 {
+    width: 1400px;
+}
 
 .main {
     width: 100%;
@@ -377,9 +383,15 @@ section .business ul li {
  padding: 10px;
 }
 
-.main .s2-box2 .img2 {
-    
+.sec-2{
+    width: 900px;
 }
+
+.business ul {
+    padding: 10px;
+}
+
+
 
 }
 /*영섭이꺼*/
