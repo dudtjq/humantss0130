@@ -57,7 +57,7 @@ header .inner-header li:hover {
 }
 
 header .inner-header li:first-child {
-    font-weight: bold;
+    font-weight: 700;
 }
 
 /*section main style*/
