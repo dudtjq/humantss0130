@@ -439,8 +439,8 @@ margin-left: 210px;
 }
 .sec-2 {
     position: absolute;
-    left: -90px;
-    width: 1100px;
+    left: -80px;
+    width: 1000px;
 }
 .s2-box {
     width: 500px;
@@ -450,6 +450,8 @@ margin-left: 210px;
     position: absolute;
     left: -90px;
     bottom: -390px;
+     font-size: 20px;
+
 }
 .s2-box2 ul  {
     left: -90px;
@@ -469,7 +471,7 @@ font-size: 27px;
     padding-left: 20px;
 }
 .value .wrap {
-    padding-left: 5px;
+    padding-left: 5px; 
     margin-left: 1px;
     flex-direction: column;
 }
@@ -477,8 +479,8 @@ font-size: 27px;
     width: 330px;
     height: 200px;
     margin-bottom: 30px;
-}
-.wrap .value-box ul li{
+    padding-left: 1px;
+    margin-left: 10px;
 }
 
 section .tit {
